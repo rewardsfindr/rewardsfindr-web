@@ -84,102 +84,120 @@ function App() {
       {/* How It Works */}
       <section className="how-it-works">
         <div className="container">
-          <h2>How RewardsFindr Saves You Money</h2>
+          <h2>How it works</h2>
+          <p className="section-lead">
+            Three steps from bank offers on your phone to the right card at checkout.
+          </p>
           <div className="features-grid">
             <div className="feature">
               <div className="feature-number">1</div>
-              <h3>Connect Your Banks</h3>
+              <h3>Connect your banks</h3>
               <p>
-                Securely sync your Chase, Amex, and other bank offers directly in the app.
-                No manual entry needed.
+                Sync offers from Chase, Amex, Citi, Wells Fargo, Capital One, and
+                Bilt in the app — no manual entry.
               </p>
             </div>
             <div className="feature">
               <div className="feature-number">2</div>
-              <h3>Search Any Store</h3>
+              <h3>Search any store</h3>
               <p>
-                Before you shop, search for any store - Target, Amazon, gas stations, restaurants.
+                Before you buy, search Target, Amazon, gas, restaurants, or
+                wherever you&apos;re shopping.
               </p>
             </div>
             <div className="feature">
               <div className="feature-number">3</div>
-              <h3>See Best Card Instantly</h3>
+              <h3>See the best card</h3>
               <p>
-                Get personalized recommendations based on YOUR active offers. See exactly how much you'll save.
+                Compare your active offers across cards and pick the one that
+                earns the most for that store.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Money Savings Section */}
+      {/* Features */}
+      <section className="features">
+        <div className="container">
+          <h2>Features</h2>
+          <p className="section-lead">
+            Built to help you use the right card every time — without sending
+            your offers off the phone.
+          </p>
+          <ul className="features-list">
+            <li>
+              Sync offers from Chase, Amex, Citi, Wells Fargo, Capital One, and
+              Bilt — with more banks on the way
+            </li>
+            <li>Search any store and see matching offers instantly</li>
+            <li>Compare offers across all your synced cards in one place</li>
+            <li>
+              Works with merchant offers and rotating categories when your bank
+              provides them
+            </li>
+            <li>
+              Offer data stays on your phone — nothing leaves the device
+            </li>
+            <li>Free forever — no subscriptions, no ads</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* One proof example */}
       <section className="savings">
         <div className="container">
-          <h2>Real Savings, Real Users</h2>
-          <div className="savings-stats">
-            <div className="stat">
-              <div className="stat-number">$50-500</div>
-              <div className="stat-label">Average yearly savings</div>
-            </div>
-            <div className="stat">
-              <div className="stat-number">5-15%</div>
-              <div className="stat-label">Cashback on purchases</div>
-            </div>
-            <div className="stat">
-              <div className="stat-number">3 sec</div>
-              <div className="stat-label">Time to find best card</div>
-            </div>
-          </div>
+          <h2>See the difference</h2>
+          <p className="section-lead">
+            A simple illustration of how matching the right offer changes what
+            you earn.
+          </p>
           <div className="savings-example">
-            <h3>Example: Shopping at Target</h3>
+            <h3>Example: shopping at Target</h3>
             <p>
-              Without RewardsFindr: Use any card → Get 1-2% back<br />
-              With RewardsFindr: See you have a Chase Freedom 5% Target offer → Get 5% back<br />
-              <strong>On $100 purchase: Save extra $3-4 every time</strong>
+              Without RewardsFindr: use any card → typical 1–2% back
+              <br />
+              With RewardsFindr: see you have a 5% Target offer on a synced card
+              → use that card instead
+              <br />
+              <strong>
+                On a $100 purchase, that gap is a few extra dollars every time
+                you shop
+              </strong>
             </p>
           </div>
         </div>
       </section>
 
-      {/* Features List */}
-      <section className="features">
-        <div className="container">
-          <h2>Features</h2>
-          <ul className="features-list">
-            <li>✅ Auto-sync offers from Chase, Amex (Capital One coming soon)</li>
-            <li>✅ Search thousands of merchants instantly</li>
-            <li>✅ See personalized offers based on YOUR cards</li>
-            <li>✅ Works with rotating 5% categories (Chase Freedom, Discover)</li>
-            <li>✅ Privacy-focused - your data is securely encrypted</li>
-            <li>✅ Free forever - no subscriptions, no ads</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* FAQ Placeholder */}
+      {/* FAQ */}
       <section className="faq">
         <div className="container">
-          <h2>Frequently Asked Questions</h2>
+          <h2>Frequently asked questions</h2>
           <div className="faq-item">
             <h3>Is RewardsFindr free?</h3>
-            <p>Yes! Completely free with no ads or hidden fees.</p>
+            <p>Yes — free, with no ads and no hidden fees.</p>
           </div>
           <div className="faq-item">
             <h3>Which banks are supported?</h3>
-            <p>Currently Chase and American Express. Capital One and Citi are coming soon.</p>
+            <p>
+              Chase, Amex, Citi, Wells Fargo, Capital One, and Bilt today — and
+              many more to come.
+            </p>
           </div>
           <div className="faq-item">
             <h3>Is my data secure?</h3>
             <p>
-              Absolutely. The app only reads offer data from bank websites - never your account numbers,
-              transactions, or passwords. All data is stored securely in your private Firebase account.
+              Yes. Offer data stays on your phone — nothing leaves the device.
+              The app never takes your bank passwords, account numbers, or
+              transactions, and your offers aren&apos;t uploaded to our servers.
             </p>
           </div>
           <div className="faq-item">
             <h3>How does it compare to credit card apps?</h3>
             <p>
-              Bank apps show offers for ONE card at a time. RewardsFindr shows ALL your offers across ALL cards
-              when you search for a store, so you always pick the best one.
+              Bank apps usually show offers for one card at a time. RewardsFindr
+              shows your offers across synced cards when you search a store, so
+              you can pick the best one.
             </p>
           </div>
         </div>
@@ -188,7 +206,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>RewardsFindr - Find the best credit card rewards for any store</p>
+          <p>RewardsFindr — use the right card, every time</p>
           <p>
             <a href="mailto:hello@rewardsfindr.com">hello@rewardsfindr.com</a>
           </p>

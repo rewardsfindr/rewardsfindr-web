@@ -325,11 +325,23 @@ body {
   background: #f9fafb;
 }
 
-.how-it-works h2 {
-  font-size: 2.5rem;
+.how-it-works h2,
+.features h2,
+.savings h2,
+.faq h2 {
+  font-family: var(--rf-font-display);
+  font-size: clamp(1.85rem, 3vw, 2.4rem);
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 16px;
   color: #1f2937;
+}
+
+.section-lead {
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto 48px;
+  color: #6b7280;
+  font-size: 1.05rem;
 }
 
 .features-grid {
@@ -376,39 +388,6 @@ body {
   background: white;
 }
 
-.savings h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 60px;
-  color: #1f2937;
-}
-
-.savings-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
-  margin-bottom: 60px;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 3rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 8px;
-}
-
-.stat-label {
-  color: #6b7280;
-  font-size: 1rem;
-}
-
 .savings-example {
   background: #f0fdf4;
   padding: 40px;
@@ -437,24 +416,29 @@ body {
   background: #f9fafb;
 }
 
-.features h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 60px;
-  color: #1f2937;
-}
-
 .features-list {
   list-style: none;
-  max-width: 700px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
 .features-list li {
-  padding: 20px;
-  font-size: 1.1rem;
+  position: relative;
+  padding: 18px 20px 18px 36px;
+  font-size: 1.05rem;
   color: #4b5563;
   border-bottom: 1px solid #e5e7eb;
+}
+
+.features-list li::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 1.55em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--rf-green);
 }
 
 .features-list li:last-child {
@@ -467,15 +451,12 @@ body {
   background: white;
 }
 
-.faq h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 60px;
-  color: #1f2937;
+.faq {
+  padding-top: 64px;
 }
 
 .faq-item {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -566,11 +547,4 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .savings-stats {
-    grid-template-columns: 1fr;
-  }
-
-  h2 {
-    font-size: 2rem !important;
-  }
 }
