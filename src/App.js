@@ -16,7 +16,7 @@ function App() {
             <h1 className="hero-headline">Use the right card, every time</h1>
             <p className="hero-subtitle">
               Sync your bank offers, search any store, and pay with the card that
-              earns the most — App Store and Play coming soon.
+              earns the most — App Store and Play Store coming soon.
             </p>
             <div className="hero-cta">
               <a
