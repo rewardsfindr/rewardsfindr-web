@@ -139,7 +139,6 @@ function App() {
             <li>
               Offer data stays on your phone — nothing leaves the device
             </li>
-            <li>Free forever — no subscriptions, no ads</li>
           </ul>
         </div>
       </section>
@@ -173,10 +172,6 @@ function App() {
       <section className="faq">
         <div className="container">
           <h2>Frequently asked questions</h2>
-          <div className="faq-item">
-            <h3>Is RewardsFindr free?</h3>
-            <p>Yes — free, with no ads and no hidden fees.</p>
-          </div>
           <div className="faq-item">
             <h3>Which banks are supported?</h3>
             <p>
