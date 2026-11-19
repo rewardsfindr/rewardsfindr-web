@@ -1,24 +1,53 @@
 import React from 'react';
 import './App.css';
 
+const EARLY_ACCESS_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLScJkqhhZV1wmSV56vzaW0Hh9vz0NQldnVwR6mpPWPghIKQs3A/viewform';
+
 function App() {
   return (
     <div className="landing-page">
-      {/* Hero Section */}
+      {/* Hero Section — Slice 1: brand-first first viewport */}
       <section className="hero">
-        <div className="container">
-          <h1>Never miss the best credit card reward again</h1>
-          <p className="hero-subtitle">
-            RewardsFindr automatically tracks your bank offers and shows you which card to use at any store.
-            Save money on every purchase.
-          </p>
-          <div className="hero-cta">
-            <button className="btn-primary">Download for iOS</button>
-            <button className="btn-secondary">Download for Android</button>
+        <div className="hero-atmosphere" aria-hidden="true" />
+        <div className="container hero-layout">
+          <div className="hero-copy">
+            <p className="brand-mark">RewardsFindr</p>
+            <h1 className="hero-headline">Use the right card, every time</h1>
+            <p className="hero-subtitle">
+              Sync your bank offers, search any store, and pay with the card that
+              earns the most — App Store and Play coming soon.
+            </p>
+            <div className="hero-cta">
+              <a
+                className="btn-primary"
+                href={EARLY_ACCESS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get early access
+              </a>
+              <p className="hero-cta-note">iOS &amp; Android — coming soon</p>
+            </div>
           </div>
-          <div className="hero-image-placeholder">
-            {/* App screenshots will go here */}
-            <div className="screenshot-placeholder">App Screenshots Coming Soon</div>
+
+          <div className="hero-visual" aria-hidden="true">
+            <div className="phone-frame">
+              <div className="phone-notch" />
+              <div className="phone-screen">
+                <div className="phone-app-bar">RewardsFindr</div>
+                <div className="phone-search" />
+                <div className="phone-pills">
+                  <span />
+                  <span />
+                  <span />
+                </div>
+                <div className="phone-cards">
+                  <div className="phone-card" />
+                  <div className="phone-card" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
