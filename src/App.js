@@ -44,6 +44,7 @@ function App() {
                   <span className="phone-search-text">Search a store…</span>
                 </div>
                 <div className="phone-section-label">Your offers</div>
+                <div className="phone-sample-cue">Sample rates for illustration</div>
                 <div className="phone-offers">
                   <div className="phone-offer">
                     <div className="phone-offer-rate">6% back</div>
