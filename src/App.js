@@ -28,6 +28,9 @@ function App() {
                 Get early access
               </a>
               <p className="hero-cta-note">iOS &amp; Android — coming soon</p>
+              <p className="hero-banks">
+                Works with Chase · Amex · Citi · Wells Fargo · Capital One · Bilt
+              </p>
             </div>
           </div>
 

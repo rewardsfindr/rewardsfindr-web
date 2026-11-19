@@ -141,6 +141,15 @@ body {
   color: rgba(236, 253, 245, 0.8);
 }
 
+.hero-banks {
+  margin-top: 8px;
+  max-width: 28rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: rgba(236, 253, 245, 0.88);
+}
+
 .hero-visual {
   display: flex;
   justify-content: center;
@@ -522,6 +531,11 @@ body {
 
   .hero-cta {
     align-items: center;
+  }
+
+  .hero-banks {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .btn-primary,
