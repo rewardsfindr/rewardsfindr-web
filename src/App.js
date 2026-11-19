@@ -1,24 +1,82 @@
 import React from 'react';
 import './App.css';
 
+const EARLY_ACCESS_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLScJkqhhZV1wmSV56vzaW0Hh9vz0NQldnVwR6mpPWPghIKQs3A/viewform';
+
 function App() {
   return (
     <div className="landing-page">
-      {/* Hero Section */}
+      {/* Hero Section — Slice 1: brand-first first viewport */}
       <section className="hero">
-        <div className="container">
-          <h1>Never miss the best credit card reward again</h1>
-          <p className="hero-subtitle">
-            RewardsFindr automatically tracks your bank offers and shows you which card to use at any store.
-            Save money on every purchase.
-          </p>
-          <div className="hero-cta">
-            <button className="btn-primary">Download for iOS</button>
-            <button className="btn-secondary">Download for Android</button>
+        <div className="hero-atmosphere" aria-hidden="true" />
+        <div className="container hero-layout">
+          <div className="hero-copy">
+            <p className="brand-mark">RewardsFindr</p>
+            <h1 className="hero-headline">Use the right card, every time</h1>
+            <p className="hero-subtitle">
+              Sync your bank offers, search any store, and pay with the card that
+              earns the most — App Store and Play Store coming soon.
+            </p>
+            <div className="hero-cta">
+              <a
+                className="btn-primary"
+                href={EARLY_ACCESS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get early access
+              </a>
+              <p className="hero-cta-note">iOS &amp; Android — coming soon</p>
+              <p className="hero-banks">
+                Works with Chase · Amex · Citi · Wells Fargo · Capital One · Bilt
+                — and many more to come, so you choose the right card every time.
+              </p>
+            </div>
           </div>
-          <div className="hero-image-placeholder">
-            {/* App screenshots will go here */}
-            <div className="screenshot-placeholder">App Screenshots Coming Soon</div>
+
+          <div className="hero-visual" aria-hidden="true">
+            <div className="phone-frame">
+              <div className="phone-notch" />
+              <div className="phone-screen">
+                <div className="phone-app-bar">RewardsFindr</div>
+                <div className="phone-search">
+                  <span className="phone-search-text">Search a store…</span>
+                </div>
+                <div className="phone-section-label">Your offers</div>
+                <div className="phone-sample-cue">Sample rates for illustration</div>
+                <div className="phone-offers">
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">6% back</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Whole Foods</span>
+                      <span className="phone-offer-bank phone-offer-bank--amex">Amex</span>
+                    </div>
+                  </div>
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">5% back</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Target</span>
+                      <span className="phone-offer-bank phone-offer-bank--chase">Chase</span>
+                    </div>
+                  </div>
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">4% back</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Chipotle</span>
+                      <span className="phone-offer-bank phone-offer-bank--c1">Cap One</span>
+                    </div>
+                  </div>
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">3x pts</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Starbucks</span>
+                      <span className="phone-offer-bank phone-offer-bank--citi">Citi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
