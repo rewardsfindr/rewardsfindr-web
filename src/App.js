@@ -195,9 +195,18 @@ function App() {
           <div className="faq-item">
             <h3>How does it compare to credit card apps?</h3>
             <p>
-              Bank apps usually show offers for one card at a time. RewardsFindr
-              shows your offers across synced cards when you search a store, so
-              you can pick the best one.
+              Bank apps usually show offers for one card at a time — so you end
+              up opening each one to figure out what&apos;s best. RewardsFindr is
+              a simple tool that shows your offers across synced cards when you
+              search a store, so you can pick the right card in one place.
+            </p>
+          </div>
+          <div className="faq-item">
+            <h3>Does RewardsFindr use AI?</h3>
+            <p>
+              No. It&apos;s a simple tool: sync your bank offers, search a store,
+              and see which card pays best — so you don&apos;t have to open each
+              bank app to figure it out. No AI involved.
             </p>
           </div>
         </div>
