@@ -36,15 +36,39 @@ function App() {
               <div className="phone-notch" />
               <div className="phone-screen">
                 <div className="phone-app-bar">RewardsFindr</div>
-                <div className="phone-search" />
-                <div className="phone-pills">
-                  <span />
-                  <span />
-                  <span />
+                <div className="phone-search">
+                  <span className="phone-search-text">Search a store…</span>
                 </div>
-                <div className="phone-cards">
-                  <div className="phone-card" />
-                  <div className="phone-card" />
+                <div className="phone-section-label">Example offers</div>
+                <div className="phone-offers">
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">6% back</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Whole Foods</span>
+                      <span className="phone-offer-bank phone-offer-bank--amex">Amex</span>
+                    </div>
+                  </div>
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">5% back</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Target</span>
+                      <span className="phone-offer-bank phone-offer-bank--chase">Chase</span>
+                    </div>
+                  </div>
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">4% back</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Chipotle</span>
+                      <span className="phone-offer-bank phone-offer-bank--c1">Cap One</span>
+                    </div>
+                  </div>
+                  <div className="phone-offer">
+                    <div className="phone-offer-rate">3x pts</div>
+                    <div className="phone-offer-meta">
+                      <span className="phone-offer-store">Starbucks</span>
+                      <span className="phone-offer-bank phone-offer-bank--citi">Citi</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -184,37 +184,93 @@ body {
   border-radius: 999px;
   background: #fff;
   border: 1px solid rgba(4, 120, 87, 0.18);
-  margin-bottom: 14px;
-}
-
-.phone-pills {
+  margin-bottom: 12px;
   display: flex;
-  gap: 8px;
-  margin-bottom: 16px;
+  align-items: center;
+  padding: 0 12px;
 }
 
-.phone-pills span {
-  height: 22px;
-  width: 28%;
-  border-radius: 999px;
-  background: rgba(4, 120, 87, 0.12);
+.phone-search-text {
+  font-size: 0.72rem;
+  color: rgba(6, 78, 59, 0.45);
+  font-weight: 500;
 }
 
-.phone-cards {
+.phone-section-label {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(6, 78, 59, 0.55);
+  margin-bottom: 8px;
+}
+
+.phone-offers {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
-.phone-card {
-  height: 64px;
+.phone-offer {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
   border-radius: 12px;
   background: #fff;
   border: 1px solid rgba(4, 120, 87, 0.12);
 }
 
-.phone-card:last-child {
-  opacity: 0.72;
+.phone-offer-rate {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--rf-green-deep);
+  background: rgba(16, 185, 129, 0.12);
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 4px;
+  line-height: 1.2;
+}
+
+.phone-offer-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.phone-offer-store {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #134e4a;
+}
+
+.phone-offer-bank {
+  align-self: flex-start;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 999px;
+  color: #fff;
+}
+
+.phone-offer-bank--amex {
+  background: #1f4b99;
+}
+
+.phone-offer-bank--chase {
+  background: #117aca;
+}
+
+.phone-offer-bank--c1 {
+  background: #d03027;
+}
+
+.phone-offer-bank--citi {
+  background: #003b70;
 }
 
 @keyframes hero-rise {
