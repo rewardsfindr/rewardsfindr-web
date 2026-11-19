@@ -30,6 +30,7 @@ function App() {
               <p className="hero-cta-note">iOS &amp; Android — coming soon</p>
               <p className="hero-banks">
                 Works with Chase · Amex · Citi · Wells Fargo · Capital One · Bilt
+                — and many more to come, so you choose the right card every time.
               </p>
             </div>
           </div>
