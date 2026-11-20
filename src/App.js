@@ -25,7 +25,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Get early access
+                Register to get early access
               </a>
               <p className="hero-cta-note">iOS &amp; Android — coming soon</p>
               <p className="hero-banks">
