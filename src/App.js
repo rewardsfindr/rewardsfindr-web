@@ -16,7 +16,7 @@ function App() {
             <h1 className="hero-headline">Use the right card, every time</h1>
             <p className="hero-subtitle">
               Sync your bank offers, search any store, and pay with the card that
-              earns the most — App Store and Play Store coming soon.
+              saves the most — App Store and Play Store coming soon.
             </p>
             <div className="hero-cta">
               <a
@@ -110,7 +110,7 @@ function App() {
               <h3>See the best card</h3>
               <p>
                 Compare your active offers across cards and pick the one that
-                earns the most for that store.
+                saves the most for that store.
               </p>
             </div>
           </div>
@@ -149,7 +149,7 @@ function App() {
           <h2>See the difference</h2>
           <p className="section-lead">
             A simple illustration of how matching the right offer changes what
-            you earn.
+            you save.
           </p>
           <div className="savings-example">
             <h3>Example: shopping at Target</h3>
